@@ -80,8 +80,8 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
           id={`${idPrefix}-menu-dropdown`}
           role="listbox"
           aria-label={t('selectLanguage')}
-          className={`absolute z-50 mt-2 w-72 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl py-2 animate-in fade-in zoom-in-95 duration-150 ${
-            isRTL ? 'left-0' : 'right-0'
+          className={`absolute z-50 mt-2 w-72 max-w-[calc(100vw-2rem)] rounded-2xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl py-2 animate-in fade-in zoom-in-95 duration-150 ${
+            isRTL ? 'left-0 sm:left-0' : 'right-0 sm:right-0'
           }`}
         >
           {/* Header Title */}

@@ -138,9 +138,9 @@ export const WorkoutGenerator: React.FC<WorkoutGeneratorProps> = ({
   const previewSchedule = generateWeeklySchedule(daysPerWeek, style);
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-3 sm:px-4 py-6 sm:py-8 overflow-x-hidden w-full max-w-full">
       {/* Wizard Container */}
-      <div className="rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl overflow-hidden p-6 sm:p-10">
+      <div className="rounded-2xl sm:rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-xl overflow-hidden p-4 sm:p-8 md:p-10">
         {/* Progress Bar & Header */}
         <div className="mb-8">
           <div className="flex items-center justify-between text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">

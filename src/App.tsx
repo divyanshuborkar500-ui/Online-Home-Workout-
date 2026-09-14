@@ -247,7 +247,7 @@ export default function App() {
   const currentStats = calculateProgressStats(history);
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors">
+    <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100 transition-colors overflow-x-hidden w-full max-w-full">
       {/* Navigation Header */}
       <Navbar
         currentTab={currentTab}
@@ -258,7 +258,7 @@ export default function App() {
       />
 
       {/* Main Content Area */}
-      <main className="flex-1">
+      <main className="flex-1 w-full max-w-full overflow-x-hidden">
         {/* Workout Complete Celebration Screen */}
         {completedStats ? (
           <WorkoutComplete
