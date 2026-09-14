@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="128" fill="#0F172A" />
+  
+  <!-- Subtle Home Roofline Contour -->
+  <path d="M128 256 L256 144 L384 256" stroke="url(#accentGrad)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Active Dynamic Figure / Fitness Core -->
+  <circle cx="256" cy="220" r="28" fill="#F8FAFC" />
+  <!-- Body/Torso and upward energetic arms -->
+  <path d="M200 340 C200 295 230 270 256 270 C282 270 312 295 312 340" stroke="#F8FAFC" stroke-width="24" stroke-linecap="round" />
+  
+  <!-- Balanced Dumbbell/Ground Line -->
+  <rect x="160" y="374" width="192" height="20" rx="10" fill="url(#brandGrad)" />
+  <rect x="144" y="364" width="24" height="40" rx="8" fill="url(#accentGrad)" />
+  <rect x="344" y="364" width="24" height="40" rx="8" fill="url(#accentGrad)" />
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Online Home Workout",
+  "description": "Personalized home workouts built around your goal, fitness level, time, and equipment. No gym or expensive gear required.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
